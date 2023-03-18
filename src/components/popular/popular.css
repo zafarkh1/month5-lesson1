@@ -1,0 +1,27 @@
+.popular {
+  padding-block: 3rem;
+  background-color: #f8f8f8;
+}
+
+.popular .container h2 {
+	color: #BB2339;
+	margin-bottom: 2rem;
+}
+
+.popular .container .card-wrapper {
+  display: flex;
+  justify-content: space-between;
+	gap: 1rem;
+}
+
+.popular .container .card-wrapper .card-each {
+	align-items: center;
+}
+
+.popular .container .card-wrapper .card-each .img-wrapper {
+	margin-block: 1rem;
+}
+
+.popular .container .card-wrapper .card-each .dollar {
+	color: #BB2339;
+}

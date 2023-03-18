@@ -1,0 +1,204 @@
+.showcase {
+  background-color: #bb2339;
+  padding-block: 3rem;
+  height: 90vh;
+}
+
+.showcase .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.showcase .container .right {
+  position: relative;
+}
+
+.showcase .container .right .shashlik {
+  max-width: 100%;
+  border-top-left-radius: 300px;
+  border-bottom-left-radius: 400px;
+}
+
+.showcase .container .right .tayoq {
+  position: absolute;
+  bottom: 3rem;
+  right: 6rem;
+}
+
+.showcase .container .right .scrol {
+  color: #fff;
+  position: absolute;
+  bottom: 0rem;
+  right: 5rem;
+}
+
+.showcase .container .left {
+  width: 44%;
+  color: #fff;
+}
+
+.showcase .container .left h5 {
+  font-size: 23px;
+}
+
+.showcase .container .left h1 {
+  font-size: 80px;
+  line-height: 130%;
+  width: 530px;
+  text-transform: capitalize;
+  margin-block: 2rem;
+}
+
+.showcase .container .left p {
+  width: 400px;
+  opacity: 0.7;
+  line-height: 175%;
+}
+
+.showcase .container .left .showcase-btn {
+  padding: 8px 32px;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  background-color: transparent;
+  margin-top: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .showcase {
+    padding-block: 5rem;
+  }
+  .showcase .container .left h1 {
+    font-size: 60px;
+    line-height: 120%;
+    width: 400px;
+  }
+
+  .showcase .container .left p {
+    width: 360px;
+  }
+}
+
+@media (max-width: 992px) {
+  .showcase {
+    padding-block: 3rem;
+    height: auto;
+    text-align: center;
+  }
+  .showcase .container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .showcase .container .left {
+    width: 100%;
+  }
+  .showcase .container .left h1 {
+    font-size: 60px;
+    margin-block: 1rem;
+
+    width: 100%;
+  }
+  .showcase .container .left p {
+    width: 100%;
+    padding-inline: 5rem;
+  }
+  .showcase .container .right {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .showcase .container .left h5 {
+    font-size: 20px;
+  }
+
+  .showcase .container .left h1 {
+    font-size: 42px;
+  }
+  .showcase .container .left p {
+    padding-inline: 4rem;
+  }
+  .showcase .container .right {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .showcase .container .left h5 {
+    font-size: 18px;
+  }
+
+  .showcase .container .left h1 {
+    font-size: 36px;
+  }
+  .showcase .container .left p {
+    padding-inline: 5.8rem;
+    font-size: 15px;
+    line-height: 155%;
+  }
+  .showcase .container .right {
+    text-align: center;
+  }
+  .showcase .container .right .shashlik {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .showcase {
+    padding-block: 2rem;
+  }
+  .showcase .container .left h5 {
+    font-size: 16px;
+  }
+
+  .showcase .container .left h1 {
+    font-size: 30px;
+  }
+  .showcase .container .left p {
+    padding-inline: 5rem;
+    font-size: 13px;
+  }
+  .showcase .container .right {
+    text-align: center;
+  }
+  .showcase .container .right .shashlik {
+    max-width: 90%;
+  }
+  .showcase .container .left .showcase-btn {
+    font-size: 14px;
+  }
+  .showcase .container .right .tayoq {
+    display: none;
+  }
+  .showcase .container .right .scrol {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .showcase .container .left h5 {
+    font-size: 14px;
+  }
+  .showcase .container .left h1 {
+    font-size: 26px;
+  }
+  .showcase .container .left p {
+    padding-inline: 1rem;
+    font-size: 12px;
+  }
+  .showcase .container .left .showcase-btn {
+		margin-top: 2px;
+  }
+}
+
+@media (max-width: 340px) {
+  .showcase .container .left h1 {
+    font-size: 24px;
+  }
+  .showcase .container .left p {
+    padding-inline: 3px;
+  }
+}
