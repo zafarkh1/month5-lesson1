@@ -15,7 +15,7 @@ const Popular = () => {
       <div className="popular">
         <Container className="container">
           <h2>Popular Dishes</h2>
-            {/* <FontAwesomeIcon icon="fa-solid fa-chevron-right" /> */}
+          {/* <FontAwesomeIcon icon="fa-solid fa-chevron-right" /> */}
           <div className="card-wrapper">
             <Card className="card-each text-center">
               <Card.Img src={first} />
