@@ -1,0 +1,43 @@
+.navbar {
+  .myContainer {
+    #basic-navbar-nav {
+      .ms-auto {
+        color: #fff !important;
+      }
+    }
+  }
+}
+
+.modalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  .modalWrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: aqua;
+    padding: 1rem 5rem;
+    font-size: 18px;
+    position: relative;
+    .para {
+      h2 {
+        margin-bottom: 2rem;
+      }
+    }
+    .closeBtn {
+      color: grey;
+      position: absolute;
+      top: 0;
+      right: 1rem;
+      background-color: transparent;
+      border: none;
+      font-size: 30px;
+      &:hover {
+        color: #000;
+        cursor: pointer;
+      }
+    }
+  }
+}
