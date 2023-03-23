@@ -43,23 +43,30 @@ function ToDo() {
   const handleChangeSubmit = (e) => {
     e.preventDefault();
 
-    if (!newFname.trim() || !newLname.trim() || !newUserName.trim() || !newAge || ! newSalary) return;
+    if (
+      !newFname.trim() ||
+      !newLname.trim() ||
+      !newUserName.trim() ||
+      !newAge ||
+      !newSalary
+    )
+      return;
     setToDos([
       ...toDo,
       {
         id: Math.floor(Math.random() * 100),
         fName: newFname,
         lName: newLname,
-				userName: newUserName,
-				age: newAge,
-				salary: newSalary
+        userName: newUserName,
+        age: newAge,
+        salary: newSalary,
       },
     ]);
     setNewFname("");
     setNewLname("");
-		setNewUserName("")
-		setNewAge("")
-		setNewSalary("")
+    setNewUserName("");
+    setNewAge("");
+    setNewSalary("");
   };
 
   localStorage.setItem("todos", JSON.stringify(toDo));
@@ -118,18 +125,18 @@ function ToDo() {
           Add
         </button>
         <table id="newTodo">
-					<tr id="item">
-						<th>Id</th>
-						<th>FirstName</th>
-						<th>LastName</th>
-						<th>UserName</th>
-						<th>Age</th>
-						<th>Salary</th>
-						<th>Delete</th>
-					</tr>
+          <tr id="item">
+            <th>Id</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>UserName</th>
+            <th>Age</th>
+            <th>Salary</th>
+            <th>Delete</th>
+          </tr>
           {toDo.map((element) => (
             <tr key={element.id} id="item">
-							<td>{element.id}</td>
+              <td>{element.id}</td>
               <td>{element.fName}</td>
               <td>{element.lName}</td>
               <td>{element.userName}</td>
