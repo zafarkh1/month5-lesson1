@@ -11,6 +11,7 @@ const Axios = () => {
   };
 
   const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   const fetchData = async () => {
     try {
@@ -22,6 +23,10 @@ const Axios = () => {
   useEffect(() => {
     fetchData();
   }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="container">
