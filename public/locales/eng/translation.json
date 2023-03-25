@@ -1,0 +1,6 @@
+{
+  "heading": "This data gotten from API called restcountries.com",
+  "name": "Country: ",
+  "currency": "Currency: ",
+  "language": "Languages: "
+}

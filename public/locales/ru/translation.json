@@ -1,0 +1,6 @@
+{
+  "heading": "Эти данные получены из API под названием restcountries.com.",
+  "name": "Страна:  ",
+  "currency": "Валюта: ",
+  "language": "Языки: "
+}
