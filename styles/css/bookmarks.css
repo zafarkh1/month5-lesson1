@@ -1,0 +1,32 @@
+.bookmarks {
+  padding: 1rem;
+  width: 100%;
+  position: relative;
+}
+.bookmarks h4 {
+  font-weight: 700;
+  margin: 0;
+}
+.bookmarks span {
+  font-size: 14px;
+  color: rgb(93, 109, 121);
+}
+.bookmarks img {
+  width: 400px;
+  height: 200px;
+}
+.bookmarks .center {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+}
+.bookmarks .center h2 {
+  margin-top: 2rem;
+  font-weight: 700;
+}
+.bookmarks .center p {
+  color: rgb(93, 109, 121);
+  margin: 0;
+}/*# sourceMappingURL=bookmarks.css.map */

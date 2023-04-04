@@ -1,0 +1,95 @@
+.footer {
+  padding-top: 1rem;
+  position: sticky;
+  top: 0;
+  bottom: 3rem;
+  height: 95vh;
+  border-left: 1px solid #d8d8d8;
+  padding-left: 1rem;
+  .input {
+    background-color: #eff3f4;
+    width: 373px;
+    height: 55px;
+    border-radius: 2rem;
+    color: #5c6c79;
+    padding: 0.8rem 0rem 0.8rem 1.5rem;
+    font-size: 18px;
+    span {
+      font-size: 18px;
+    }
+    input {
+      outline: none;
+      border: none;
+      margin-left: 1.3rem;
+      background-color: transparent;
+    }
+  }
+  .trends {
+    position: relative;
+    background-color: #f7f9f9;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    margin-top: 1rem;
+    h3 {
+      font-weight: 700;
+      font-size: 24px;
+    }
+    .revolution {
+      span {
+        color: #393b41;
+        opacity: 0.6;
+      }
+      h4 {
+        font-size: 18px;
+      }
+    }
+    .showmore {
+      display: block;
+      text-decoration: none;
+      color: #1da1f2;
+      font-size: 16px;
+      margin-top: 1rem;
+    }
+  }
+  .like {
+    background-color: #f7f9f9;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.8rem;
+    h2 {
+      font-weight: 700;
+      font-size: 24px;
+    }
+    .user {
+      margin-top: 1rem;
+      p {
+        margin-top: 10px;
+        margin-left: -30px;
+      }
+      button {
+        background: #000000;
+        border-radius: 50px;
+        padding: 8px 22px;
+        color: #fff;
+        font-size: 18px;
+      }
+    }
+    .showmore {
+      display: block;
+      text-decoration: none;
+      color: #1da1f2;
+      font-size: 16px;
+      margin-top: 1rem;
+    }
+  }
+  .links {
+    width: 370px;
+    margin-top: 1rem;
+    p {
+      color: #536471;
+      span {
+        margin-left: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.signup {
+  padding-top: 5rem;
+  padding-inline: 1rem;
+  position: relative;
+  .logo {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 2rem;
+    left: 50%;
+  }
+  h2 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+  }
+  input {
+    font-size: 20px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-block: 0.8rem;
+    outline: none;
+  }
+  button {
+    width: 100%;
+    height: 60px;
+    background: #1da1f2;
+    border-radius: 76px;
+		border: none;
+		color: white;
+		font-size: 20px;
+		margin-top: 2rem;
+  }
+	.email {
+		margin-block: 2rem;
+		font-size: 20px;
+		text-decoration: none;
+	}
+	.show {
+		margin-top: 1rem;
+	}
+	.signLink, .forgot {
+		width: 30%;
+		display: inline-block;
+		font-size: 20px;
+		margin-block: 2rem;
+	}
+}

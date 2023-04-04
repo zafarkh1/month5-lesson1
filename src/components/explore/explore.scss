@@ -1,0 +1,46 @@
+.explore {
+	background-color: rgb(233, 233, 233);
+	width: 100%;
+	padding: 1rem;
+	h2 {
+		margin: 0;
+		text-align: center;
+	}
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2rem;
+		margin-top: 2rem;
+		.wrapper {
+			img {
+				width: 270px;
+				height: 270px;
+				border-radius: 10px 10px 0 0;
+			}
+			.text {
+				border-radius: 0 0 10px 10px;
+				background-color: white;
+				width: 270px;
+				height: 220px;
+				padding: 1rem;
+				padding-right: 4rem;
+				.name {
+					width: 220px;
+					height: 60px;
+					font-size: 20px;
+					font-weight: 700;
+				}
+				p {
+					.xira {
+						opacity: 0.6;
+					}
+				}
+				.star {
+					text-align: center;
+					color: yellow;
+					font-size: 28px;
+				}
+			}
+		}
+	}
+}
