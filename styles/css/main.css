@@ -2,6 +2,11 @@
   padding-top: 1rem;
   width: 100%;
 }
+.main img.user {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
 .main .title {
   padding-inline: 1rem;
 }
@@ -12,6 +17,9 @@
 .main .personal .input .d-flex .icons {
   margin-top: 3.8rem;
   color: #1d9bf0;
+}
+.main .personal .input .d-flex input {
+  width: 170%;
 }
 .main .personal input {
   border: none;
